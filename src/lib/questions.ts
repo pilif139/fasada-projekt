@@ -1,11 +1,10 @@
 export type QuestionType = {
-    type: "text" | "number" | "checkbox";
     question: string;
-    answers: string[] | number[] | boolean[];
+    answers: string[];
     correctAnswer: string | number | boolean | string[];
 }
 
-export const questions = [
+export const questions : QuestionType[] = [
     {
         question: "What's your name?",
         answers: [
@@ -14,4 +13,5 @@ export const questions = [
             "Arthur",
         ],
         correctAnswer: 0, // index of correct answer in answers array
-    }];
+    },
+];

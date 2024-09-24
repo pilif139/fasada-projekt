@@ -9,5 +9,6 @@ export function load({params}){
     }
     return {
         question: question,
+        id: id,
     };
 }
