@@ -1,3 +1,10 @@
-<div>
+<script lang="ts">
+  import Button from "./Button.svelte";
+
+    export let id;
+</script>
+
+<main>
     First Page
-</div>
+    <Button href="/question/{id}">Next</Button>
+</main>
