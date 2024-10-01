@@ -1,3 +1,11 @@
 import { writable } from "svelte/store";
 
-export const points = writable(0);
+type PointsStore = {
+    points: number;
+    YourAnswers: number[];
+};
+
+export const points = writable({
+    points: 0,
+    YourAnswers: [],
+} as PointsStore);

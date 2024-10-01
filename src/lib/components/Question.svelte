@@ -5,7 +5,7 @@
 
   export let question: QuestionType;
   export let handleClickAnswer: ()=> void;
-  let clickedAns: number | null = null;
+  let clickedAns: number = -1;
 
   const buttonStyle = " bg-gradient-to-t to-black px-10 py-6 rounded-xl mx-2 ";
 
@@ -13,7 +13,20 @@
         clickedAns = index;
         handleClickAnswer();
         if(clickedAns === question.correctAnswer){
-            points.update((n) => n + 1);
+            points.update(({points, YourAnswers}) => {
+                return {
+                    points: points + 1,
+                    YourAnswers: [...YourAnswers, question.correctAnswer]
+                }
+            });
+        }
+        else{
+            points.update(({points, YourAnswers}) => {
+                return {
+                    points: points,
+                    YourAnswers: [...YourAnswers, clickedAns]
+                }
+            });
         }
   };
 
@@ -24,18 +37,18 @@
     <ul class="flex justify-between text-xl">
       {#each question.answers as answer, index}
         {#if (clickedAns === index && index === question.correctAnswer)}
-          <button class="from-green-800 {buttonStyle} border-4 border-white" transition:fade={{duration: 350}}>
+          <button class="from-green-800 {buttonStyle} outline outline-4 outline-white" transition:fade={{duration: 350}}>
             {answer}
           </button>
-          {:else if clickedAns !== null && index === question.correctAnswer}
+          {:else if clickedAns !== -1 && index === question.correctAnswer}
           <button class="from-green-800 {buttonStyle}">
             {answer}
           </button>
         {:else if clickedAns === index}
-          <button class="from-red-800 {buttonStyle} border-4 border-white" transition:fade={{duration: 350}}>
+          <button class="from-red-800 {buttonStyle} outline outline-4 outline-white" transition:fade={{duration: 350}}>
             {answer}
           </button>
-        {:else if index !== question.correctAnswer && clickedAns !== null}
+        {:else if index !== question.correctAnswer && clickedAns !== -1}
           <button class="from-red-800 {buttonStyle}" transition:fade={{duration: 350}}>
             {answer}
           </button>
