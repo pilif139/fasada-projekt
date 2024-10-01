@@ -29,4 +29,26 @@ export const questions : QuestionType[] = [
         ],
         correctAnswer: 1,
     },
+    {
+        id: 2,
+        pageId: 1,
+        question: "question 1",
+        answers: [
+            "answer 1",
+            "answer 2 dskaopdjapjdasopdjkasopdjasopdjasfaospfjaopfj asopfjafoajsfaopjfa. fisoapjasiofja. osadjapr opjsa pojasf jnposf. sjodpadajd fpojasf jpofa pojfasaopfja.",
+            "answer 3",
+        ],
+        correctAnswer: 0,
+    },
+    {
+        id: 3,
+        pageId: 2,
+        question: "question 2",
+        answers: [
+            "answer 1",
+            "answer 2",
+            "answer 3",
+        ],
+        correctAnswer: 1,
+    }
 ];

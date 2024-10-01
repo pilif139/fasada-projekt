@@ -14,7 +14,7 @@
 
 </script>
 
-<main class="flex flex-col items-center gap-4 w-[50vw]">
+<main class="flex flex-col items-center gap-8 w-[50vw]">
   {#each Questions as question}
     <Question {handleClickAnswer} {question}/>
   {/each}

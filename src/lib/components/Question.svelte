@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Heading from "./Heading.svelte";
   import { points } from "$lib/pointsStore";
   import type { QuestionType } from "$lib/questions";
   import {fade} from 'svelte/transition';
@@ -12,7 +13,7 @@
   const handleAnswer = (e: MouseEvent, index: number) => {
         clickedAns = index;
         handleClickAnswer();
-        if(clickedAns === question.correctAnswer){
+        if(clickedAns === question.correctAnswer && $points.YourAnswers[clickedAns] === undefined){
             points.update(({points, YourAnswers}) => {
                 return {
                     points: points + 1,
@@ -33,7 +34,7 @@
 </script>
 
 <main class="flex flex-col items-center gap-4 w-[50vw]">
-    <h1 class="text-4xl font-extrabold">{question.question}</h1>
+    <Heading>{question.question}</Heading>
     <ul class="flex justify-between text-xl">
       {#each question.answers as answer, index}
         {#if (clickedAns === index && index === question.correctAnswer)}
