@@ -1,5 +1,6 @@
 <script lang="ts">
     import {page} from "$app/stores";
+  import Button from "$lib/components/Button.svelte";
 </script>
 
 <div class="m-auto text-center flex flex-col gap-4">
@@ -7,4 +8,5 @@
         <span class="text-red-500">{$page.status}</span>
     </h1>
     <h2 class="text-3xl">{$page.error?.message} :(</h2>
+    <Button href="/">Return to home page</Button>
 </div>

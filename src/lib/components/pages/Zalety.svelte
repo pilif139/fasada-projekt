@@ -11,15 +11,15 @@
     systemu.</ListElement
   >
   <ListElement>
-    możliwość zablokowania klientowi drogi do bezpośredniego korzystania ze
+    Możliwość zablokowania klientowi drogi do bezpośredniego korzystania ze
     złożonego systemu, jeśli jest to konieczne.
   </ListElement>
   <ListElement>
-    kod klienta wykorzystującego fasadę jest czytelniejszy i łatwiejszy w
+    Kod klienta wykorzystującego fasadę jest czytelniejszy i łatwiejszy w
     zrozumieniu
   </ListElement>
   <ListElement>
-    duże zmniejszenie liczby zależności między klientem a złożonym systemem —
+    Duże zmniejszenie liczby zależności między klientem a złożonym systemem —
     jeśli klient nie korzysta bezpośrednio z żadnych elementów ukrytych za
     fasadą systemu, całość jest łatwiejsza w konserwacji i utrzymaniu
   </ListElement>
