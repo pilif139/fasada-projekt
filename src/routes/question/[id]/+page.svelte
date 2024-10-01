@@ -6,25 +6,20 @@
   export let data;
   const { Questions } = data;
   const id = Number($page.params.id);
-
-  let clickedAns: number | null = null;
-
-  const buttonStyle = " bg-gradient-to-t to-black px-10 py-6 rounded-xl mx-2 ";
-
-  const handleAnswer = (e: MouseEvent, index: number) => {
-    clickedAns = index;
-
-    // add points to the user
-    
+  let clickedAnswers = 0;
+  
+  const handleClickAnswer = () => {
+    clickedAnswers += 1;
   };
+
 </script>
 
 <main class="flex flex-col items-center gap-4 w-[50vw]">
   {#each Questions as question}
-    <Question {question}/>
+    <Question {handleClickAnswer} {question}/>
   {/each}
 
-  {#if clickedAns !== null}
-    <Button href="content/{id+1}">Next</Button>
+  {#if clickedAnswers === Questions.length}
+    <Button href="/content/{id+1}">Next</Button>
   {/if}
 </main>

@@ -4,7 +4,7 @@
     export let id;
 </script>
 
-<main>
+<main class="flex flex-col">
     First Page
     <Button href="/question/{id}">Next</Button>
 </main>

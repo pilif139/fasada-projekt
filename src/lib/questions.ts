@@ -7,7 +7,7 @@ export type QuestionType = {
 
 export const questions : QuestionType[] = [
     {
-        pageId: 1,
+        pageId: 0, //content page id for which this question is
         question: "What's your name?",
         answers: [
             "Filip",
@@ -17,7 +17,7 @@ export const questions : QuestionType[] = [
         correctAnswer: 0, // index of correct answer in answers array
     },
     {
-        pageId: 1,
+        pageId: 0,
         question: "What's your age?",
         answers: [
             "20",
