@@ -1,6 +1,6 @@
 <script lang="ts">
     import ListElement from "$lib/components/ListElement.svelte";
-import { points} from "$lib/pointsStore";
+    import { points} from "$lib/pointsStore";
     import { questions } from "$lib/questions";
 </script>
 
@@ -13,7 +13,7 @@ import { points} from "$lib/pointsStore";
             <div class="flex flex-wrap gap-2">
                 <p>Correct answer: {question.answers[question.correctAnswer]} |</p>
                 {#if $points.YourAnswers[index] !== question.correctAnswer}
-                <p class="text-red-500">Your answer: {question.answers[$points.YourAnswers[index]]}</p>
+                <p class="text-red-500" aria-label="wrong-answer">Your answer: {question.answers[$points.YourAnswers[index]]}</p>
                 {:else}
                 <p class="text-green-500">You guessed this right</p>
                 {/if}

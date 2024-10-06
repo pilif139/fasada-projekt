@@ -1,0 +1,137 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Summary Page Component > renders summary page matching with snapshot 1`] = `
+<div>
+  <main
+    class="flex flex-col items-center text-2xl font-bold gap-4 w-[35vw]"
+  >
+    <p
+      class="text-5xl font-extrabold"
+    >
+      Summary
+    </p>
+     
+    <p>
+      Total points earned: 
+      <span
+        class="font-extrabold text-blue-500"
+      >
+        0
+      </span>
+    </p>
+     
+    <div
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900"
+    >
+      <p
+        class="text-3xl font-extrabold"
+      >
+        What's your name?
+      </p>
+       
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <p>
+          Correct answer: 
+          Filip
+           |
+        </p>
+         
+        <p
+          aria-label="wrong-answer"
+          class="text-red-500"
+        >
+          Your answer: 
+          undefined
+        </p>
+      </div>
+       
+    </div>
+    <div
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900"
+    >
+      <p
+        class="text-3xl font-extrabold"
+      >
+        What's your age?
+      </p>
+       
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <p>
+          Correct answer: 
+          30
+           |
+        </p>
+         
+        <p
+          aria-label="wrong-answer"
+          class="text-red-500"
+        >
+          Your answer: 
+          undefined
+        </p>
+      </div>
+       
+    </div>
+    <div
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900"
+    >
+      <p
+        class="text-3xl font-extrabold"
+      >
+        question 1
+      </p>
+       
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <p>
+          Correct answer: 
+          answer 1
+           |
+        </p>
+         
+        <p
+          aria-label="wrong-answer"
+          class="text-red-500"
+        >
+          Your answer: 
+          undefined
+        </p>
+      </div>
+       
+    </div>
+    <div
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900"
+    >
+      <p
+        class="text-3xl font-extrabold"
+      >
+        question 2
+      </p>
+       
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <p>
+          Correct answer: 
+          answer 2
+           |
+        </p>
+         
+        <p
+          aria-label="wrong-answer"
+          class="text-red-500"
+        >
+          Your answer: 
+          undefined
+        </p>
+      </div>
+       
+    </div>
+  </main>
+</div>
+`;

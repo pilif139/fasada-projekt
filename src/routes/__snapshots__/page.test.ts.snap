@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Main Page > should render 1`] = `
+<div>
+  <main
+    class="flex flex-col items-center text-xl gap-8 w-[40vw] text-center"
+  >
+    <div
+      class="text-6xl text-blue-500 font-nunito font-extrabold"
+    >
+      Fasada
+    </div>
+     
+    <p
+      class="text-2xl"
+    >
+      Dzięki tej stronie dowiesz się czym jest wzorzec projektowy fasady
+    </p>
+     
+    <a
+      class="bg-blue-500 px-8 py-4 rounded-xl text-xl font-bold hover:bg-blue-800 transition-all border-2 border-blue-600 hover:scale-110 duration-300"
+      href="content/0"
+    >
+      Next
+    </a>
+    
+  </main>
+</div>
+`;
