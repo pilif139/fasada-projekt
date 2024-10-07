@@ -8,7 +8,7 @@
     <p class="text-5xl font-extrabold">Summary</p>
     <p>Total points earned: <span class="font-extrabold text-blue-500">{$points.points}</span></p>
     {#each questions as question, index}
-        <ListElement className="from-slate-950 via-blue-950 to-gray-900">
+        <ListElement className="from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]">
             <p class="text-3xl font-extrabold">{question.question}</p>
             <div class="flex flex-wrap gap-2">
                 <p>Correct answer: {question.answers[question.correctAnswer]} |</p>

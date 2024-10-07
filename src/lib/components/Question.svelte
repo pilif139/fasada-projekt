@@ -13,7 +13,7 @@
   const handleAnswer = (e: MouseEvent, index: number) => {
         clickedAns = index;
         handleClickAnswer();
-        if(clickedAns === question.correctAnswer && $points.YourAnswers[clickedAns] === undefined){
+        if(clickedAns === question.correctAnswer && $points.YourAnswers[question.id] === undefined){
             points.update(({points, YourAnswers}) => {
                 return {
                     points: points + 1,
@@ -29,6 +29,9 @@
                 }
             });
         }
+       points.subscribe((value) => {
+            console.log(value.points);
+        });
   };
 
 </script>

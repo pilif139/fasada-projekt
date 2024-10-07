@@ -17,12 +17,12 @@ export function load({ params }) {
     return redirect(301,'/summary');
   }
 
-  if (!PageQuestions.length && questions.filter((q) => q.pageId > id).length) {
+  if (!PageQuestions.length &&  contents[id + 1] !== undefined) {
     return redirect(301, "/content/" + (id + 1));
-  } 
-  else if (contents[id + 1] !== undefined) {
-    return redirect(301, "/content/" + (id + 1));
-  } else{
+  } else if(id + 1 === contents.length){
+    return redirect(301, "/summary");
+  }
+   else{
     return error(404, "Not questions found");
   }
 }
