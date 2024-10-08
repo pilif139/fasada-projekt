@@ -36,9 +36,9 @@
 
 </script>
 
-<main class="flex flex-col items-center gap-4 w-[50vw]">
+<main class="flex flex-col items-center gap-4 w-full">
     <Heading>{question.question}</Heading>
-    <ul class="flex justify-between text-xl">
+    <ul class="flex justify-center text-xl w-full">
       {#each question.answers as answer, index}
         {#if (clickedAns === index && index === question.correctAnswer)}
           <button class="from-green-800 {buttonStyle} outline outline-4 outline-white" transition:fade={{duration: 350}}>

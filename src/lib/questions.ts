@@ -10,45 +10,78 @@ export const questions : QuestionType[] = [
     {
         id: 0,
         pageId: 0, //content page id for which this question is
-        question: "What's your name?",
+        question: "Co robi fasada?",
         answers: [
-            "Filip",
-            "John",
-            "Arthur",
+            "Przedstawia skomplikowany kod w postaci prostego interfejsu",
+            "Umożliwia użytkownikowi zobaczenie kodu źródłowego",
+            "Sprawdza poprawność informacji wprowadzanych przez użytkownika",
         ],
         correctAnswer: 0, // index of correct answer in answers array
     },
     {
         id: 1,
         pageId: 0,
-        question: "What's your age?",
+        question: "Ile fasad możemy mieć w programie?",
         answers: [
-            "20",
-            "30",
-            "40",
+            "ile chcemy",
+            "tylko jedną ",
+            "zależy od języka programowania",
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
     },
     {
         id: 2,
-        pageId: 1,
-        question: "question 1",
+        pageId: 0,
+        question: "Jaka fasada przekierowuje użytkownika do kolejnych? ",
         answers: [
-            "answer 1",
-            "answer 2 dskaopdjapjdasopdjkasopdjasopdjasfaospfjaopfj asopfjafoajsfaopjfa. fisoapjasiofja. osadjapr opjsa pojasf jnposf. sjodpadajd fpojasf jpofa pojfasaopfja.",
-            "answer 3",
+            "fasada główna ",
+            "fasada podrzędna ",
+            "fasada nie może przekierowywać użytkownika",
         ],
         correctAnswer: 0,
     },
     {
         id: 3,
-        pageId: 2,
-        question: "question 2",
+        pageId: 1,
+        question: "Jak powinna wyglądać główna fasada? ",
         answers: [
-            "answer 1",
-            "answer 2",
-            "answer 3",
+            "powinna zawierać tabelę ",
+            "powinna być przejrztysta",
+            "nie powinna wyglądać, bo jej nie widać",
         ],
         correctAnswer: 1,
-    }
+    },
+    {
+        id: 4,
+        pageId: 1,
+        question: "Czym jest podsystem?",
+        answers: [
+            "zbiorem wszystkich fasad",
+            "klasami i obiektami",
+            "strukturą graficzną strony",
+        ],
+        correctAnswer: 1,
+    },
+    {
+        id: 5,
+        pageId: 2,
+        question: "Która z tych cech NIE jest zaletą fasady?",
+        answers: [
+            "czytelność programu od strony użytkownika",
+            "możliwość zablokowania klientowi drogi do bezpośredniego korzystania z kodu",
+            "możliwość ograniczenia liczby użytkowników programu",
+        ],
+        correctAnswer: 2,
+    },
+    {
+        id: 6,
+        pageId: 3,
+        question: "Która z tych cech jest wadą fasady?",
+        answers: [
+            "Ograniczanie zależności między klientem, a systemem",
+            "Wydłużenie czasu tworzenie kodu",
+            "czytelność programu od strony użytkownika",
+        ],
+        correctAnswer: 1,
+    },
 ];

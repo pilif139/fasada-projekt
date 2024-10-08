@@ -7,3 +7,4 @@
     <p class="text-2xl">Dzięki tej stronie dowiesz się czym jest wzorzec projektowy fasady</p>
     <Button href="content/0">Next</Button>
 </main>
+`
