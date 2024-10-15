@@ -3,16 +3,16 @@
 exports[`Summary Page Component > renders summary page matching with snapshot 1`] = `
 <div>
   <main
-    class="flex flex-col items-center text-2xl font-bold gap-4 w-[35vw]"
+    class="flex flex-col items-center text-2xl font-bold gap-4 w-[80vw] md:w-[40vw] my-4"
   >
     <p
       class="text-5xl font-extrabold"
     >
-      Summary
+      Podsumowanie
     </p>
      
     <p>
-      Total points earned: 
+      Ilość punktów: 
       <span
         class="font-extrabold text-blue-500"
       >
@@ -26,27 +26,25 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
       <p
         class="text-3xl font-extrabold"
       >
-        What's your name?
+        Co robi fasada?
       </p>
        
       <div
         class="flex flex-wrap gap-2"
       >
         <p>
-          Correct answer: 
-          Filip
-           |
+          Poprawna odpowiedź: 
+          Przedstawia skomplikowany kod w postaci prostego interfejsu
         </p>
          
         <p
           aria-label="wrong-answer"
           class="text-red-500"
         >
-          Your answer: 
+          Twoja odpowiedź: 
           undefined
         </p>
       </div>
-       
     </div>
     <div
       class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
@@ -54,27 +52,25 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
       <p
         class="text-3xl font-extrabold"
       >
-        What's your age?
+        Ile fasad możemy mieć w programie?
       </p>
        
       <div
         class="flex flex-wrap gap-2"
       >
         <p>
-          Correct answer: 
-          30
-           |
+          Poprawna odpowiedź: 
+          ile chcemy
         </p>
          
         <p
           aria-label="wrong-answer"
           class="text-red-500"
         >
-          Your answer: 
+          Twoja odpowiedź: 
           undefined
         </p>
       </div>
-       
     </div>
     <div
       class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
@@ -82,27 +78,25 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
       <p
         class="text-3xl font-extrabold"
       >
-        question 1
+        Jaka fasada przekierowuje użytkownika do kolejnych? 
       </p>
        
       <div
         class="flex flex-wrap gap-2"
       >
         <p>
-          Correct answer: 
-          answer 1
-           |
+          Poprawna odpowiedź: 
+          fasada główna 
         </p>
          
         <p
           aria-label="wrong-answer"
           class="text-red-500"
         >
-          Your answer: 
+          Twoja odpowiedź: 
           undefined
         </p>
       </div>
-       
     </div>
     <div
       class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
@@ -110,28 +104,112 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
       <p
         class="text-3xl font-extrabold"
       >
-        question 2
+        Jak powinna wyglądać główna fasada? 
       </p>
        
       <div
         class="flex flex-wrap gap-2"
       >
         <p>
-          Correct answer: 
-          answer 2
-           |
+          Poprawna odpowiedź: 
+          powinna być przejrztysta
         </p>
          
         <p
           aria-label="wrong-answer"
           class="text-red-500"
         >
-          Your answer: 
+          Twoja odpowiedź: 
           undefined
         </p>
       </div>
-       
     </div>
+    <div
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+    >
+      <p
+        class="text-3xl font-extrabold"
+      >
+        Czym jest podsystem?
+      </p>
+       
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <p>
+          Poprawna odpowiedź: 
+          klasami i obiektami
+        </p>
+         
+        <p
+          aria-label="wrong-answer"
+          class="text-red-500"
+        >
+          Twoja odpowiedź: 
+          undefined
+        </p>
+      </div>
+    </div>
+    <div
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+    >
+      <p
+        class="text-3xl font-extrabold"
+      >
+        Która z tych cech NIE jest zaletą fasady?
+      </p>
+       
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <p>
+          Poprawna odpowiedź: 
+          możliwość ograniczenia liczby użytkowników programu
+        </p>
+         
+        <p
+          aria-label="wrong-answer"
+          class="text-red-500"
+        >
+          Twoja odpowiedź: 
+          undefined
+        </p>
+      </div>
+    </div>
+    <div
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+    >
+      <p
+        class="text-3xl font-extrabold"
+      >
+        Która z tych cech jest wadą fasady?
+      </p>
+       
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <p>
+          Poprawna odpowiedź: 
+          Wydłużenie czasu tworzenie kodu
+        </p>
+         
+        <p
+          aria-label="wrong-answer"
+          class="text-red-500"
+        >
+          Twoja odpowiedź: 
+          undefined
+        </p>
+      </div>
+    </div>
+     
+    <a
+      class="bg-blue-500 px-8 py-4 rounded-xl text-xl font-bold hover:bg-blue-800 transition-all border-2 border-blue-600 hover:scale-110 duration-300 "
+      href="/"
+    >
+      Rozwiąż jeszcze raz
+    </a>
+    
   </main>
 </div>
 `;
