@@ -23,11 +23,11 @@ export const questions : QuestionType[] = [
         pageId: 0,
         question: "Ile fasad możemy mieć w programie?",
         answers: [
-            "ile chcemy",
             "tylko jedną ",
+            "ile chcemy",
             "zależy od języka programowania",
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
     },
     {
         id: 2,
@@ -57,10 +57,10 @@ export const questions : QuestionType[] = [
         question: "Czym jest podsystem?",
         answers: [
             "zbiorem wszystkich fasad",
-            "klasami i obiektami",
             "strukturą graficzną strony",
+            "klasami i obiektami",
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
     },
     {
         id: 5,

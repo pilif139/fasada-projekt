@@ -1,7 +1,5 @@
 <script lang="ts">
-  import { page } from '$app/stores';
     import Button from '$lib/components/Button.svelte';
-  import { onMount } from 'svelte';
 
     export let data;
     const {content} = data;
