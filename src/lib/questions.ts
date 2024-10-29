@@ -84,4 +84,37 @@ export const questions : QuestionType[] = [
         ],
         correctAnswer: 1,
     },
+    {
+        id: 7,
+        pageId: 4,
+        question: "Kiedy dzwonisz, aby złożyć zamówienie, co lub kto pełni funkcję fasady?",
+        answers: [
+            "twój telefon",
+            "pracownik odbierający telefon",
+            "pracownik magazynu",
+        ],
+        correctAnswer: 1,
+    },
+    {
+        id: 8,
+        pageId: 5,
+        question: " Jakiej funkcji NIE pełni fasada w aplikacji bankomatowej?",
+        answers: [
+            "obliczania aktualnego stanu konta bankowego ",
+            "łączenia wyborów użytkownika z systemem banku",
+            "upraszczania widoku aplikacji bankomatu użytkownikowi",
+        ],
+        correctAnswer: 0,
+    },
+    {
+        id: 9,
+        pageId: 6,
+        question: "Jaki element kalkulatora stanowi część fasady?",
+        answers: [
+            "bateria",
+            "system wewnątrz kalkulatora",
+            "przyciski",
+        ],
+        correctAnswer: 2,
+    }
 ];

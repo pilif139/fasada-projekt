@@ -5,8 +5,8 @@
 
 <Heading>Wady</Heading>
 <ol>
-    <ListElement>stosowanie fasady wszędzie, gdzie tylko się da, pomimo, że wystarczyłby prostszy kod może prowadzić do niepotrzebnego przedłużania projektu</ListElement>
-    <ListElement>Nieumiejętne zastosowanie fasady może wydłużyć działanie kodu.</ListElement>
-    <ListElement>Wydłużanie czasu tworzenia kodu. Implementowanie fasady może kosztować czas i wysiłek, szczególnie przy planowaniu ułożenia i podziału.</ListElement>
-    <ListElement>Utrudnione późniejsze utrzymywanie kodu</ListElement>
+    <ListElement>Niepotrzebne przedłuża projekt (kiedy stosuje się fasadę zbyt często) </ListElement>
+    <ListElement>Wydłuża czas działania kodu - wydłużając czas potrzebny do wykonania danego zadania w programie. 
+    </ListElement>
+    <ListElement>Wydłuża czas tworzenia kodu - implementowanie fasady kosztuje czas i wysiłek </ListElement>
 </ol>

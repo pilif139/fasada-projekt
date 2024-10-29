@@ -16,7 +16,7 @@
                 {#if $points.YourAnswers[index] !== question.correctAnswer}
                 <p class="text-red-500" aria-label="wrong-answer">Twoja odpowiedź: {question.answers[$points.YourAnswers[index]]}</p>
                 {:else}
-                <p class="text-green-500">Zgadłeś prawidłowo</p>
+                <p class="text-green-500">Odpowiedziałeś prawidłowo</p>
                 {/if}
             </div>
         </ListElement>

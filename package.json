@@ -12,7 +12,7 @@
     "test": "vitest run"
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "^3.0.0",
+    "@sveltejs/adapter-vercel": "^5.4.6",
     "@sveltejs/kit": "^2.0.0",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/svelte": "^5.2.3",

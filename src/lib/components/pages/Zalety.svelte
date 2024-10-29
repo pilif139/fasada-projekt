@@ -5,22 +5,8 @@
 
 <Heading>Zalety</Heading>
 <ol>
-  <ListElement
-    >Można odizolować kod od złożoności podsystemu, co prowadzi do podziału
-    aplikacji na warstwy, które ułatwiają niezależny rozwój klienta i złożonego
-    systemu.</ListElement
-  >
-  <ListElement>
-    Możliwość zablokowania klientowi drogi do bezpośredniego korzystania ze
-    złożonego systemu, jeśli jest to konieczne.
+  <ListElement>Możliwość zablokowania klientowi drogi do bezpośredniego korzystania ze złożonego systemu</ListElement>
+  <ListElement>Program od strony klienta wykorzystującego fasadę jest czytelny i łatwy do zrozumienia 
   </ListElement>
-  <ListElement>
-    Kod klienta wykorzystującego fasadę jest czytelniejszy i łatwiejszy w
-    zrozumieniu
-  </ListElement>
-  <ListElement>
-    Duże zmniejszenie liczby zależności między klientem a złożonym systemem —
-    jeśli klient nie korzysta bezpośrednio z żadnych elementów ukrytych za
-    fasadą systemu, całość jest łatwiejsza w konserwacji i utrzymaniu
-  </ListElement>
+  <ListElement>Program jest łatwiejszy w konserwacji i utrzymaniu - klient nie korzysta bezpośrednio z żadnych elementów ukrytych za fasadą, </ListElement>
 </ol>
