@@ -12,7 +12,7 @@ export function load({params}){
         return error(404, 'Content not found');
     }
     return {
-        content: content,
+        Content: content,
         id: id,
     };
 }

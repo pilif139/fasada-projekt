@@ -4,9 +4,13 @@
   import type { QuestionType } from "$lib/questions";
   import {fade} from 'svelte/transition';
 
-  export let question: QuestionType;
-  export let handleClickAnswer: ()=> void;
-  let clickedAns: number = -1;
+  type PropsType = {
+    question: QuestionType;
+    handleClickAnswer: ()=>void;
+  };
+
+  let {question, handleClickAnswer}: PropsType= $props();
+  let clickedAns: number = $state(-1);
 
   const buttonStyle = " bg-gradient-to-t to-black px-10 py-6 rounded-xl mx-2 ";
 
@@ -58,7 +62,7 @@
           </button>
         {:else}
           <button
-            on:click={(e) => handleAnswer(e, index)}
+            onclick={(e) => handleAnswer(e, index)}
             class=" from-slate-950 {buttonStyle}"
           >
             {answer}

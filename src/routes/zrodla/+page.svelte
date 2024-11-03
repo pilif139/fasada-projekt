@@ -27,7 +27,7 @@
     <Heading>Źródła</Heading>
     {#each sources as {name, url}}
         <Button className="flex text-xl w-[20vw] justify-center">
-            <a href={url} class="flex">{name}<Icon src={BiLink} size={30}/></a>
+            <a href={url} class="flex" target="_blank">{name}<Icon src={BiLink} size={30}/></a>
         </Button>
     {/each}
 </main>

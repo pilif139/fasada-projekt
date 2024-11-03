@@ -3,10 +3,10 @@
   import Button from "$lib/components/Button.svelte";
   import Question from "$lib/components/Question.svelte";
 
-  export let data;
+  let { data} = $props();;
   const { Questions } = data;
   const id = Number($page.params.id);
-  let clickedAnswers = 0;
+  let clickedAnswers = $state(0);
   
   const handleClickAnswer = () => {
     clickedAnswers += 1;

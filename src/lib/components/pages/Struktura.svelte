@@ -4,10 +4,10 @@
   import ListElement from "../ListElement.svelte";
 </script>
 
-<Heading>Struktura</Heading>
-<div class="flex w-screen px-10 gap-4">
-  <img {src} alt="Struktura fasady" class="rounded-2xl shadow-lg shadow-black h-fit" />
-  <div class="flex flex-col">
+<Heading>Struktura Fasady</Heading>
+<div class="flex w-[80vw] items-center justify-center gap-8">
+  <img {src} alt="Struktura fasady" class="rounded-2xl shadow-lg shadow-black h-[45vh] w-auto" />
+  <div class="flex flex-row">
     <ol>
       <ListElement>
         Klient, jest użytkownikiem aplikacji, w której zastosowana jest fasada
