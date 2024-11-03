@@ -3,7 +3,7 @@
     import {BiBookmark, BiLogoGithub} from 'svelte-icons-pack/bi';
 </script>
 
-<footer class="relative bottom-0 flex items-center justify-center gap-5 py-8 font-bold text-xl bg-gradient-to-t from-slate-950 to-slate-700">
+<footer class="relative bottom-0 flex items-center justify-center gap-5 py-8 font-bold text-xl bg-gradient-to-t from-[rgba(15,23,42,1)] to-[rgba(51,65,85,0)]">
     <p>Stronę stworzyli: Filip Kasperski, Władysław Furmańczyk i Antoni Piętka</p>
     <a  href="/zrodla"
         target="_blank"
