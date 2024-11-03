@@ -21,7 +21,7 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
     </p>
      
     <div
-      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600  bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
     >
       <p
         class="text-3xl font-extrabold"
@@ -33,8 +33,7 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
         class="flex flex-wrap gap-2"
       >
         <p>
-          Poprawna odpowiedź: 
-          Przedstawia skomplikowany kod w postaci prostego interfejsu
+          Poprawna odpowiedź: Przedstawia skomplikowany kod w postaci prostego interfejsu
         </p>
          
         <p
@@ -42,12 +41,13 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
           class="text-red-500"
         >
           Twoja odpowiedź: 
-          undefined
         </p>
+        <!---->
       </div>
+      <!---->
     </div>
     <div
-      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600  bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
     >
       <p
         class="text-3xl font-extrabold"
@@ -59,8 +59,7 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
         class="flex flex-wrap gap-2"
       >
         <p>
-          Poprawna odpowiedź: 
-          ile chcemy
+          Poprawna odpowiedź: ile chcemy
         </p>
          
         <p
@@ -68,25 +67,25 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
           class="text-red-500"
         >
           Twoja odpowiedź: 
-          undefined
         </p>
+        <!---->
       </div>
+      <!---->
     </div>
     <div
-      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600  bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
     >
       <p
         class="text-3xl font-extrabold"
       >
-        Jaka fasada przekierowuje użytkownika do kolejnych? 
+        Jaka fasada przekierowuje użytkownika do kolejnych?
       </p>
        
       <div
         class="flex flex-wrap gap-2"
       >
         <p>
-          Poprawna odpowiedź: 
-          fasada główna 
+          Poprawna odpowiedź: fasada główna
         </p>
          
         <p
@@ -94,25 +93,25 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
           class="text-red-500"
         >
           Twoja odpowiedź: 
-          undefined
         </p>
+        <!---->
       </div>
+      <!---->
     </div>
     <div
-      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600  bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
     >
       <p
         class="text-3xl font-extrabold"
       >
-        Jak powinna wyglądać główna fasada? 
+        Jak powinna wyglądać główna fasada?
       </p>
        
       <div
         class="flex flex-wrap gap-2"
       >
         <p>
-          Poprawna odpowiedź: 
-          powinna być przejrztysta
+          Poprawna odpowiedź: powinna być przejrztysta
         </p>
          
         <p
@@ -120,12 +119,13 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
           class="text-red-500"
         >
           Twoja odpowiedź: 
-          undefined
         </p>
+        <!---->
       </div>
+      <!---->
     </div>
     <div
-      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600  bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
     >
       <p
         class="text-3xl font-extrabold"
@@ -137,8 +137,7 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
         class="flex flex-wrap gap-2"
       >
         <p>
-          Poprawna odpowiedź: 
-          klasami i obiektami
+          Poprawna odpowiedź: klasami i obiektami
         </p>
          
         <p
@@ -146,12 +145,13 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
           class="text-red-500"
         >
           Twoja odpowiedź: 
-          undefined
         </p>
+        <!---->
       </div>
+      <!---->
     </div>
     <div
-      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600  bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
     >
       <p
         class="text-3xl font-extrabold"
@@ -163,8 +163,7 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
         class="flex flex-wrap gap-2"
       >
         <p>
-          Poprawna odpowiedź: 
-          możliwość ograniczenia liczby użytkowników programu
+          Poprawna odpowiedź: możliwość ograniczenia liczby użytkowników programu
         </p>
          
         <p
@@ -172,12 +171,13 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
           class="text-red-500"
         >
           Twoja odpowiedź: 
-          undefined
         </p>
+        <!---->
       </div>
+      <!---->
     </div>
     <div
-      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600  bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
     >
       <p
         class="text-3xl font-extrabold"
@@ -189,8 +189,7 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
         class="flex flex-wrap gap-2"
       >
         <p>
-          Poprawna odpowiedź: 
-          Wydłużenie czasu tworzenie kodu
+          Poprawna odpowiedź: Wydłużenie czasu tworzenie kodu
         </p>
          
         <p
@@ -198,18 +197,100 @@ exports[`Summary Page Component > renders summary page matching with snapshot 1`
           class="text-red-500"
         >
           Twoja odpowiedź: 
-          undefined
         </p>
+        <!---->
       </div>
+      <!---->
     </div>
+    <div
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600  bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+    >
+      <p
+        class="text-3xl font-extrabold"
+      >
+        Kiedy dzwonisz, aby złożyć zamówienie, co lub kto pełni funkcję fasady?
+      </p>
+       
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <p>
+          Poprawna odpowiedź: pracownik odbierający telefon
+        </p>
+         
+        <p
+          aria-label="wrong-answer"
+          class="text-red-500"
+        >
+          Twoja odpowiedź: 
+        </p>
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <div
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600  bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+    >
+      <p
+        class="text-3xl font-extrabold"
+      >
+        Jakiej funkcji NIE pełni fasada w aplikacji bankomatowej?
+      </p>
+       
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <p>
+          Poprawna odpowiedź: obliczania aktualnego stanu konta bankowego
+        </p>
+         
+        <p
+          aria-label="wrong-answer"
+          class="text-red-500"
+        >
+          Twoja odpowiedź: 
+        </p>
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <div
+      class="p-10 text-white rounded-xl transition-all duration-500 bg-gradient-to-t from-slate-900 via-blue-400 to-blue-600  bg-size-200 bg-pos-0 hover:bg-pos-100 my-5 cursor-pointer w-full shadow-lg shadow-black from-slate-950 via-blue-950 to-gray-900 min-w-[45vw]"
+    >
+      <p
+        class="text-3xl font-extrabold"
+      >
+        Jaki element kalkulatora stanowi część fasady?
+      </p>
+       
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <p>
+          Poprawna odpowiedź: przyciski
+        </p>
+         
+        <p
+          aria-label="wrong-answer"
+          class="text-red-500"
+        >
+          Twoja odpowiedź: 
+        </p>
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <!---->
      
     <a
       class="bg-blue-500 px-8 py-4 rounded-xl text-xl font-bold hover:bg-blue-800 transition-all border-2 border-blue-600 hover:scale-110 duration-300 "
       href="/"
     >
       Rozwiąż jeszcze raz
+      <!---->
     </a>
-    
+    <!---->
   </main>
+  
 </div>
 `;

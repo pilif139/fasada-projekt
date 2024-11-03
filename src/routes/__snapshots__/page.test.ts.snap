@@ -22,10 +22,10 @@ exports[`Main Page > should render 1`] = `
       href="content/0"
     >
       Next
+      <!---->
     </a>
-    
+    <!---->
   </main>
   
-\`
 </div>
 `;

@@ -33,9 +33,6 @@
                 }
             });
         }
-       points.subscribe((value) => {
-            console.log(value.points);
-        });
   };
 
 </script>

@@ -23,7 +23,7 @@ export const questions : QuestionType[] = [
         pageId: 0,
         question: "Ile fasad możemy mieć w programie?",
         answers: [
-            "tylko jedną ",
+            "tylko jedną",
             "ile chcemy",
             "zależy od języka programowania",
         ],
@@ -32,10 +32,10 @@ export const questions : QuestionType[] = [
     {
         id: 2,
         pageId: 0,
-        question: "Jaka fasada przekierowuje użytkownika do kolejnych? ",
+        question: "Jaka fasada przekierowuje użytkownika do kolejnych?",
         answers: [
-            "fasada główna ",
-            "fasada podrzędna ",
+            "fasada główna",
+            "fasada podrzędna",
             "fasada nie może przekierowywać użytkownika",
         ],
         correctAnswer: 0,
@@ -43,9 +43,9 @@ export const questions : QuestionType[] = [
     {
         id: 3,
         pageId: 1,
-        question: "Jak powinna wyglądać główna fasada? ",
+        question: "Jak powinna wyglądać główna fasada?",
         answers: [
-            "powinna zawierać tabelę ",
+            "powinna zawierać tabelę",
             "powinna być przejrztysta",
             "nie powinna wyglądać, bo jej nie widać",
         ],
@@ -98,9 +98,9 @@ export const questions : QuestionType[] = [
     {
         id: 8,
         pageId: 5,
-        question: " Jakiej funkcji NIE pełni fasada w aplikacji bankomatowej?",
+        question: "Jakiej funkcji NIE pełni fasada w aplikacji bankomatowej?",
         answers: [
-            "obliczania aktualnego stanu konta bankowego ",
+            "obliczania aktualnego stanu konta bankowego",
             "łączenia wyborów użytkownika z systemem banku",
             "upraszczania widoku aplikacji bankomatu użytkownikowi",
         ],

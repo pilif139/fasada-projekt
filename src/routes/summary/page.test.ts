@@ -18,11 +18,11 @@ describe('Summary Page Component', () => {
   });
 
   it('renders each question with correct answer', () => {
-    points.set({ points: 10, YourAnswers: [0, 1, 2, 2] });
+    points.set({ points: 10, YourAnswers: [0, 1, 2, 2, 2, 2, 1, 2, 1, 0] });
     render(SummaryPage);
     questions.forEach((question) => {
       expect(screen.getByText(question.question)).toBeInTheDocument();
-      expect(screen.getByText(question.answers[question.correctAnswer])).toBeInTheDocument();
+      expect(screen.getByText("Poprawna odpowiedź: " + question.answers[question.correctAnswer])).toBeInTheDocument();
     });
   });
 });
